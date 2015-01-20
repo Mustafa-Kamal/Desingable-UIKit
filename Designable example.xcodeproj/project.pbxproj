@@ -15,6 +15,10 @@
 		111FE0441A6E72E7007DA85D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111FE0431A6E72E7007DA85D /* Images.xcassets */; };
 		111FE0471A6E72E7007DA85D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111FE0451A6E72E7007DA85D /* LaunchScreen.xib */; };
 		111FE0531A6E72E7007DA85D /* Designable_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FE0521A6E72E7007DA85D /* Designable_exampleTests.m */; };
+		111FE0671A6E733B007DA85D /* DeignableUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FE05E1A6E733B007DA85D /* DeignableUILabel.m */; };
+		111FE0681A6E733B007DA85D /* DesignableUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FE0601A6E733B007DA85D /* DesignableUIButton.m */; };
+		111FE0691A6E733B007DA85D /* DesignableUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FE0621A6E733B007DA85D /* DesignableUIImageView.m */; };
+		111FE06A1A6E733B007DA85D /* DesignableUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FE0641A6E733B007DA85D /* DesignableUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,14 @@
 		111FE04C1A6E72E7007DA85D /* Designable exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Designable exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		111FE0511A6E72E7007DA85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111FE0521A6E72E7007DA85D /* Designable_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Designable_exampleTests.m; sourceTree = "<group>"; };
+		111FE05D1A6E733B007DA85D /* DeignableUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeignableUILabel.h; sourceTree = "<group>"; };
+		111FE05E1A6E733B007DA85D /* DeignableUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeignableUILabel.m; sourceTree = "<group>"; };
+		111FE05F1A6E733B007DA85D /* DesignableUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableUIButton.h; sourceTree = "<group>"; };
+		111FE0601A6E733B007DA85D /* DesignableUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableUIButton.m; sourceTree = "<group>"; };
+		111FE0611A6E733B007DA85D /* DesignableUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableUIImageView.h; sourceTree = "<group>"; };
+		111FE0621A6E733B007DA85D /* DesignableUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableUIImageView.m; sourceTree = "<group>"; };
+		111FE0631A6E733B007DA85D /* DesignableUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableUIView.h; sourceTree = "<group>"; };
+		111FE0641A6E733B007DA85D /* DesignableUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,7 @@
 		111FE0321A6E72E7007DA85D /* Designable example */ = {
 			isa = PBXGroup;
 			children = (
+				111FE05C1A6E7316007DA85D /* Designable UIKit */,
 				111FE0371A6E72E7007DA85D /* AppDelegate.h */,
 				111FE0381A6E72E7007DA85D /* AppDelegate.m */,
 				111FE03A1A6E72E7007DA85D /* MasterViewController.h */,
@@ -122,6 +135,21 @@
 				111FE0511A6E72E7007DA85D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		111FE05C1A6E7316007DA85D /* Designable UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				111FE05D1A6E733B007DA85D /* DeignableUILabel.h */,
+				111FE05E1A6E733B007DA85D /* DeignableUILabel.m */,
+				111FE05F1A6E733B007DA85D /* DesignableUIButton.h */,
+				111FE0601A6E733B007DA85D /* DesignableUIButton.m */,
+				111FE0611A6E733B007DA85D /* DesignableUIImageView.h */,
+				111FE0621A6E733B007DA85D /* DesignableUIImageView.m */,
+				111FE0631A6E733B007DA85D /* DesignableUIView.h */,
+				111FE0641A6E733B007DA85D /* DesignableUIView.m */,
+			);
+			path = "Designable UIKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +255,11 @@
 				111FE0391A6E72E7007DA85D /* AppDelegate.m in Sources */,
 				111FE03C1A6E72E7007DA85D /* MasterViewController.m in Sources */,
 				111FE0361A6E72E7007DA85D /* main.m in Sources */,
+				111FE0681A6E733B007DA85D /* DesignableUIButton.m in Sources */,
+				111FE06A1A6E733B007DA85D /* DesignableUIView.m in Sources */,
+				111FE0671A6E733B007DA85D /* DeignableUILabel.m in Sources */,
 				111FE03F1A6E72E7007DA85D /* DetailViewController.m in Sources */,
+				111FE0691A6E733B007DA85D /* DesignableUIImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
